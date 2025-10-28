@@ -1,0 +1,105 @@
+xrun -uvm -top worklib.top +UVM_TESTNAME=mux_demo_test
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 12:58:56 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 12:58:57 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		uvm_tb_udf_pkg
+		mux_cfg_pkg
+		mux_in_agent_pkg
+		mux_out_agent_pkg
+		uvm_tb_ap_queue_pkg
+		mux_in_tlm_pkg
+		mux_chk_pkg
+		mux_in_cov_pkg
+		mux_env_pkg
+		mux_in_seq_pkg
+		mux_test_pkg
+		$unit_0x6fe1e230
+		$unit_0x4ba3a758
+		$unit_0x0a01d91d
+		top
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        2       2
+		Interfaces:                     3       3
+		Verilog packages:              15      15
+		Registers:                 15,039  10,394
+		Scalar wires:                   5       -
+		Vectored wires:                10       -
+		Named events:                   6      15
+		Always blocks:                 21      21
+		Initial blocks:               315     157
+		Parallel blocks:               26      27
+		Cont. assignments:              3       3
+		Pseudo assignments:             3       -
+		Assertions:                    12      12
+		Covergroup Instances:           0       1
+		Compilation units:              3       3
+		SV Class declarations:        212     319
+		SV Class specializations:     422     422
+		Process Clocks:                 4       2
+	Writing initial simulation snapshot: worklib.top:sv
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xcelium> source /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.03-s013)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mux_demo_test...
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_monitor.sv(42) @ 0: uvm_test_top.mux_env.mux_in_agent_0.mux_in_monitor [mux_in_monitor] Error injection is false
+xmsim: *W,TRILLVNULL: Illegal access of virtual methods from NULL class handle.
+            File: ../tb/agt/mux_in/mux_in_agent.sv, line = 55, pos = 28
+           Scope: worklib.mux_in_agent_pkg::mux_in_agent#(mux_in_tlm_pkg::mux_in_tlm,mux_in_tlm_pkg::mux_in_tlm)@2787_1.connect
+            Time: 0 FS + 13
+
+xmsim: *E,TRNULLID: NULL pointer dereference.
+          File: /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh, line = 463, pos = 38
+         Scope: worklib.uvm_pkg::uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(T,T))::connect
+          Time: 0 FS + 13
+Verilog Stack Trace:
+0: function worklib.uvm_pkg::uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(T,T))::connect at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh:463
+1: function worklib.mux_in_agent_pkg::mux_in_agent#(mux_in_tlm_pkg::mux_in_tlm,mux_in_tlm_pkg::mux_in_tlm)@2787_1.connect at ../tb/agt/mux_in/mux_in_agent.sv:55
+2: function worklib.uvm_pkg::uvm_component@2787_1.connect_phase at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_component.svh:2277
+3: function worklib.uvm_pkg::uvm_connect_phase@1106_2.exec_func at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_common_phases.svh:96
+4: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.execute at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:108
+5: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:81
+6: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
+7: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
+8: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
+9: task worklib.uvm_pkg::uvm_phase@1149_2.execute_phase at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_phase.svh:1168
+10: process in worklib.uvm_pkg::uvm_phase::m_iterate_through_phases at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_phase.svh:1997
+
+NOTE: You may recompile using -linedebug, in case of any discrepency in line/file information in above call stack
+
+
+/home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh:463     if ((provider.m_if_mask & m_if_mask) != m_if_mask) begin
+xcelium> exit
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 12:59:00 +07  (total: 00:00:03)

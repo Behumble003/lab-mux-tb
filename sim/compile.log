@@ -1,0 +1,655 @@
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/env/uvm_tb_udf_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:31:58 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:31:59 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/env/uvm_tb_udf_pkg.svh
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_tb_udf_pkg
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		           Instances  Unique
+		Verilog packages:  1       1
+	Writing initial simulation snapshot: worklib.uvm_tb_udf_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:01 +07  (total: 00:00:02)
+xrun -c -uvm  -sv /home/s22520123/labs/lab_mux_tb/dut/mux.sv
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:01 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:01 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		$unit_0x0a01d91d
+		dut
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             1       1
+		Registers:          54      54
+		Scalar wires:        1       -
+		Vectored wires:      5       -
+		Named events:        2       2
+		Always blocks:      21      21
+		Initial blocks:      6       6
+		Cont. assignments:   3       3
+		Assertions:          3       3
+		Compilation units:   1       1
+		Process Clocks:      4       2
+	Writing initial simulation snapshot: worklib.dut:sv
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:04 +07  (total: 00:00:03)
+xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/clk_rst_if.sv
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:04 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:04 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+file: /home/s22520123/labs/lab_mux_tb/inf/clk_rst_if.sv
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_tb_udf_pkg
+		$unit_0x4ba3a758
+		clk_rst_if
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		            Instances  Unique
+		Interfaces:         1       1
+		Verilog packages:   1       1
+		Registers:          2       3
+		Initial blocks:     1       1
+		Compilation units:  1       1
+	Writing initial simulation snapshot: worklib.clk_rst_if:sv
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:06 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/mux_in_if.sv
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:06 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:07 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+file: /home/s22520123/labs/lab_mux_tb/inf/mux_in_if.sv
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mux_in_if
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		     Instances  Unique
+		Interfaces:  1       1
+		Registers:   3       3
+	Writing initial simulation snapshot: worklib.mux_in_if:sv
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:08 +07  (total: 00:00:01)
+xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/mux_out_if.sv
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:08 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:09 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+file: /home/s22520123/labs/lab_mux_tb/inf/mux_out_if.sv
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		mux_out_if
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		     Instances  Unique
+		Interfaces:  1       1
+	Writing initial simulation snapshot: worklib.mux_out_if:sv
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:09 +07  (total: 00:00:00)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/tlm/mux_in_tlm_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:09 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:10 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/tlm/mux_in_tlm_pkg.svh
+	package worklib.mux_in_tlm_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_in_tlm_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_in_tlm_pkg:svh <0x5eb7d693>
+			streams:  25, words: 19423
+		worklib.cdns_uvm_pkg:sv <0x7f3fab74>
+			streams: 174, words: 249209
+		worklib.cdns_uvmapi:svp <0x0547f013>
+			streams:  27, words: 28687
+		worklib.cdns_assert2uvm_pkg:sv <0x6a5dd366>
+			streams:   3, words:  1654
+		worklib.uvm_pkg:sv <0x79166b5a>
+			streams: 4533, words: 6796660
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               6       6
+		Registers:                 12,814  10,054
+		Named events:                   4      12
+		Initial blocks:               251     145
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		SV Class declarations:        190     304
+		SV Class specializations:     339     339
+	Writing initial simulation snapshot: worklib.mux_in_tlm_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:14 +07  (total: 00:00:04)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/cfg /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:14 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:15 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh
+	package worklib.mux_cfg_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_cfg_pkg:svh <0x2961ee2b>
+			streams:  44, words: 32517
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               6       6
+		Registers:                 12,847  10,066
+		Named events:                   4      12
+		Initial blocks:               254     146
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		SV Class declarations:        191     305
+		SV Class specializations:     341     341
+	Writing initial simulation snapshot: worklib.mux_cfg_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:16 +07  (total: 00:00:01)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_in +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_agent_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:16 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:17 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_agent_pkg.svh
+	package worklib.mux_in_agent_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+		mux_in_agent_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_in_agent_pkg:svh <0x5a60fb5f>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               7       7
+		Registers:                 12,847  10,135
+		Named events:                   4      12
+		Initial blocks:               254     146
+		Parallel blocks:               26      27
+		Assertions:                     2       3
+		SV Class declarations:        191     309
+		SV Class specializations:     341     341
+	Writing initial simulation snapshot: worklib.mux_in_agent_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:19 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_out +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_agent_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:19 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:20 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_agent_pkg.svh
+	package worklib.mux_out_agent_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+		mux_out_agent_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_out_agent_pkg:svh <0x4ae7c9b2>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               7       7
+		Registers:                 12,847  10,103
+		Named events:                   4      12
+		Initial blocks:               254     146
+		Parallel blocks:               26      27
+		Assertions:                     2       3
+		SV Class declarations:        191     307
+		SV Class specializations:     341     341
+	Writing initial simulation snapshot: worklib.mux_out_agent_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:22 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_seq_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:22 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:22 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_seq_pkg.svh
+	package worklib.mux_in_seq_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+		mux_in_tlm_pkg
+		mux_in_seq_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_in_seq_pkg:svh <0x293e55ef>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               8       8
+		Registers:                 12,902  10,125
+		Named events:                   4      12
+		Initial blocks:               257     147
+		Parallel blocks:               26      27
+		Assertions:                     2       3
+		SV Class declarations:        192     307
+		SV Class specializations:     343     343
+	Writing initial simulation snapshot: worklib.mux_in_seq_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:24 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/chk /home/s22520123/labs/lab_mux_tb/tb/chk/uvm_tb_ap_queue_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:24 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:25 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/chk/uvm_tb_ap_queue_pkg.svh
+	package worklib.uvm_tb_ap_queue_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/tlm given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 3
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		uvm_tb_ap_queue_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uvm_tb_ap_queue_pkg:svh <0x3194a6cb>
+			streams:   0, words:     0
+		worklib.cdns_uvm_pkg:sv <0x32eae334>
+			streams: 172, words: 248139
+		worklib.cdns_uvmapi:svp <0x1837970b>
+			streams:  27, words: 28687
+		worklib.cdns_assert2uvm_pkg:sv <0x2e350c96>
+			streams:   3, words:  1654
+		worklib.uvm_pkg:sv <0x6312aec2>
+			streams: 4532, words: 6795529
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               6       6
+		Registers:                 12,759  10,034
+		Named events:                   4      13
+		Initial blocks:               248     144
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		SV Class declarations:        189     304
+		SV Class specializations:     337     337
+	Writing initial simulation snapshot: worklib.uvm_tb_ap_queue_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:29 +07  (total: 00:00:04)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/chk /home/s22520123/labs/lab_mux_tb/tb/chk/mux_chk_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:29 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:29 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/chk/mux_chk_pkg.svh
+	package worklib.mux_chk_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/tlm given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 3
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		uvm_tb_ap_queue_pkg
+		mux_cfg_pkg
+		mux_in_tlm_pkg
+		mux_chk_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_chk_pkg:svh <0x741e9986>
+			streams:   0, words:     0
+		worklib.uvm_tb_ap_queue_pkg:svh <0x174467e0>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               9       9
+		Registers:                 12,902  10,138
+		Named events:                   4      13
+		Initial blocks:               257     147
+		Parallel blocks:               26      27
+		Assertions:                     2       3
+		SV Class declarations:        192     308
+		SV Class specializations:     343     343
+	Writing initial simulation snapshot: worklib.mux_chk_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:31 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/cov /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:31 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:32 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov_pkg.svh
+	package worklib.mux_in_cov_pkg:svh
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		uvm_tb_ap_queue_pkg
+		mux_in_tlm_pkg
+		mux_in_cov_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_in_cov_pkg:svh <0x5be3ccfa>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:               8       8
+		Registers:                 12,814  10,081
+		Named events:                   4      13
+		Initial blocks:               251     145
+		Parallel blocks:               26      27
+		Assertions:                     2       2
+		Covergroup Instances:           0       1
+		SV Class declarations:        190     306
+		SV Class specializations:     339     339
+	Writing initial simulation snapshot: worklib.mux_in_cov_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:34 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/env/mux_env_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:34 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:35 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/env/mux_env_pkg.svh
+	package worklib.mux_env_pkg:svh
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+		mux_in_agent_pkg
+		mux_out_agent_pkg
+		uvm_tb_ap_queue_pkg
+		mux_in_tlm_pkg
+		mux_chk_pkg
+		mux_in_cov_pkg
+		mux_env_pkg
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_env_pkg:svh <0x17e478fd>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Verilog packages:              13      13
+		Registers:                 12,902  10,272
+		Named events:                   4      13
+		Initial blocks:               257     147
+		Parallel blocks:               26      27
+		Assertions:                     2       5
+		Covergroup Instances:           0       1
+		SV Class declarations:        192     316
+		SV Class specializations:     343     343
+	Writing initial simulation snapshot: worklib.mux_env_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:37 +07  (total: 00:00:02)
+xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/tst /home/s22520123/labs/lab_mux_tb/tb/tst/mux_test_pkg.svh
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:37 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:37 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
+file: /home/s22520123/labs/lab_mux_tb/tb/tst/mux_test_pkg.svh
+	package worklib.mux_test_pkg:svh
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 2
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		uvm_tb_udf_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		mux_cfg_pkg
+		mux_in_agent_pkg
+		mux_out_agent_pkg
+		uvm_tb_ap_queue_pkg
+		mux_in_tlm_pkg
+		mux_chk_pkg
+		mux_in_cov_pkg
+		mux_env_pkg
+		mux_in_seq_pkg
+		mux_test_pkg
+		Caching library 'worklib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.mux_test_pkg:svh <0x0f00b0ba>
+			streams: 935, words: 1039289
+		worklib.mux_env_pkg:svh <0x25600d39>
+			streams:   0, words:     0
+		worklib.mux_in_agent_pkg:svh <0x7de5c194>
+			streams:   0, words:     0
+		worklib.mux_out_agent_pkg:svh <0x3c5d9cb8>
+			streams:   0, words:     0
+		worklib.mux_chk_pkg:svh <0x55df7061>
+			streams:   0, words:     0
+		worklib.mux_in_cov_pkg:svh <0x037b2296>
+			streams:   0, words:     0
+		worklib.uvm_tb_ap_queue_pkg:svh <0x79431f18>
+			streams:   0, words:     0
+		worklib.mux_in_seq_pkg:svh <0x391efcd0>
+			streams:   0, words:     0
+		worklib.mux_cfg_pkg:svh <0x7b1ca394>
+			streams:  46, words: 42413
+		worklib.mux_in_tlm_pkg:svh <0x13c0aeb8>
+			streams:  26, words: 25101
+		worklib.cdns_uvm_pkg:sv <0x4f04cb9e>
+			streams: 174, words: 249209
+		worklib.cdns_uvmapi:svp <0x62250d46>
+			streams:  27, words: 28687
+		worklib.cdns_assert2uvm_pkg:sv <0x52e3ed27>
+			streams:   3, words:  1654
+		worklib.uvm_pkg:sv <0x29ac60c4>
+			streams: 4537, words: 6801807
+		worklib.clk_rst_if:sv <0x7814098c>
+			streams:   2, words:  1681
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Interfaces:                     3       3
+		Verilog packages:              15      15
+		Registers:                 14,985  10,340
+		Scalar wires:                   1       -
+		Vectored wires:                 5       -
+		Named events:                   4      13
+		Initial blocks:               307     150
+		Parallel blocks:               26      27
+		Assertions:                     9       9
+		Covergroup Instances:           0       1
+		Compilation units:              1       1
+		SV Class declarations:        212     319
+		SV Class specializations:     422     422
+	Writing initial simulation snapshot: worklib.mux_test_pkg:svh
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:42 +07  (total: 00:00:05)
+xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/tst +incdir+/home/s22520123/labs/lab_mux_tb/dut +incdir+/home/s22520123/labs/lab_mux_tb/inf /home/s22520123/labs/lab_mux_tb/tb/env/mux_top.sv
+TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:42 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:43 +07
+xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
+file: /home/s22520123/labs/lab_mux_tb/tb/env/mux_top.sv
+	module worklib.top:sv
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/tst given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/dut given but not used.
+xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/inf given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 4
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		uvm_tb_udf_pkg
+		mux_cfg_pkg
+		mux_in_agent_pkg
+		mux_out_agent_pkg
+		uvm_tb_ap_queue_pkg
+		mux_in_tlm_pkg
+		mux_chk_pkg
+		mux_in_cov_pkg
+		mux_env_pkg
+		mux_in_seq_pkg
+		mux_test_pkg
+		$unit_0x6fe1e230
+		$unit_0x4ba3a758
+		$unit_0x0a01d91d
+		top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.dut:sv <0x38b38186>
+			streams:  31, words: 21946
+		worklib.top:sv <0x2873bd68>
+			streams: 939, words: 1041764
+		worklib.clk_rst_if:sv <0x7238995e>
+			streams:   2, words:  2151
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        2       2
+		Interfaces:                     3       3
+		Verilog packages:              15      15
+		Registers:                 15,039  10,394
+		Scalar wires:                   5       -
+		Vectored wires:                10       -
+		Named events:                   6      15
+		Always blocks:                 21      21
+		Initial blocks:               315     157
+		Parallel blocks:               26      27
+		Cont. assignments:              3       3
+		Pseudo assignments:             3       -
+		Assertions:                    12      12
+		Covergroup Instances:           0       1
+		Compilation units:              3       3
+		SV Class declarations:        212     319
+		SV Class specializations:     422     422
+		Process Clocks:                 4       2
+	Writing initial simulation snapshot: worklib.top:sv
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:45 +07  (total: 00:00:02)

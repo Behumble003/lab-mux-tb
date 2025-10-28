@@ -1,0 +1,13 @@
+vlog  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/cfg /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 11:25:30 on Oct 03,2025
+vlog "+incdir+/src" "+incdir+/home/s22520123/labs/lab_mux_tb/tb/env" "+incdir+/home/s22520123/labs/lab_mux_tb/tb/cfg" /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh 
+-- Compiling package mux_cfg_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package uvm_tb_udf_pkg
+** Note: (vlog-2286) /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh(11): Using implicit +incdir+/home/eda/siemens/questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+End time: 11:25:30 on Oct 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

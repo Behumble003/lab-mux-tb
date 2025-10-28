@@ -1,0 +1,20 @@
+This is a testbench designed to verify the design of a two-input mux.
+The design:
+  The design has four 32-bit inputs and a 2-bit selector and a 32-bit output. The four inputs are assigned
+  to four channels internally whose channel values are 0 through 3. The 2-bit selector is used to select 
+  which channel to send to the output.
+The testbench:
+  The testbench is based on the UVM architecture. The TB implements the following:
+    - Stimulus generation with randomization
+    - Data checking
+    - Functional coverage capture
+Run simulation:
+  At the base directory, run these commands:
+    - source env.sh
+    - cd sim
+    - make compile_mux
+    - make run test_name=mux_demo_test
+Lab instructions:
+  - There are Todo actions that are to be completed incrementally 
+  - At the end, after all Todo actions havve been completed, the student is to demonstrate that the testbench
+    can be compiled and run successfully. This proves that all Todo actions have been completed as intended.
