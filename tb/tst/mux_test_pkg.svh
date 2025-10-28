@@ -15,7 +15,7 @@ package mux_test_pkg;
    import mux_in_tlm_pkg::*;
    import mux_in_seq_pkg::*;
    import mux_cfg_pkg::*;
-   //import mux_in_agent_pkg::*;
+   import mux_in_agent_pkg::*;
    
    `include "uvm_macros.svh"  
    `include "mux_base_test.sv"

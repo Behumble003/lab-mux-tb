@@ -19,7 +19,7 @@ typedef enum logic [3:0] {
 	RESET = 4'h1,
 	IDLE = 4'h4,
 	DRIVE_DATA = 4'h2,
-	DRIVE_DATA_CNT_DWN = 4'h3
+	DRIVE_DATA_CNT_DWN = 4'h3 //drive data and count down
 	} state_t;
 
 module dut (input logic in_req,

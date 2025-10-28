@@ -83,7 +83,7 @@ class mux_demo_test extends mux_base_test;
     // - the environment instance
     // - the mux_in_agent instance
     // - the sequencer instance in the agent
-    mux_in_demo_seq.start(env.mux_in_agent.mux_in_sequencer);
+    mux_in_demo_seq.start(env_h.mux_in_agent_0.sequencer);
 
     phase.drop_objection(this,"Objection dropped by mux_demo_test");
 	endtask

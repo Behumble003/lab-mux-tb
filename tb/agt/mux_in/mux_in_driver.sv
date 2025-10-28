@@ -18,7 +18,7 @@ class mux_in_driver #(type REQ = uvm_sequence_item, type RSP = uvm_sequence_item
   //
   function new(string name, uvm_component parent);
      super.new(name,parent);
-    //  cov_port = new("cov_port", this);
+     cov_port = new("cov_port", this);
   endfunction
   
   //
