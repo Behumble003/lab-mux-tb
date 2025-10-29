@@ -63,8 +63,8 @@ class mux_in_driver #(type REQ = uvm_sequence_item, type RSP = uvm_sequence_item
       // get_next_item method is part of the interface api between uvm_driver and uvm_sequencer
       //
       // Todone: call get_next_item to get the next req_pkt
-      reg_pkt = null;
-      seq_item_port.get_next_item(reg_pkt);
+      req_pkt = null;
+      seq_item_port.get_next_item(req_pkt);
       if (req_pkt == null) begin
         continue;
       end
