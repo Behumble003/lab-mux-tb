@@ -70,7 +70,7 @@ class mux_in_cov #(type REQ = uvm_sequence_item) extends uvm_component;
          `uvm_info(my_name,$psprintf("chan=%d",pkt.chan),UVM_NONE)
          chan = pkt.chan;
          data = pkt.data;
-         //Todo: Call the mux_in_cov_grp sample function
+         //Todone: Call the mux_in_cov_grp sample function
          mux_in_cov_grp.sample();
          end
    endtask

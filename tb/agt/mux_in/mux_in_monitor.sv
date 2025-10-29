@@ -74,7 +74,7 @@ class mux_in_monitor #(type PKT = uvm_sequence_item) extends uvm_monitor;
       	ref_pkt = PKT::type_id::create($psprintf("ref_pkt_id_%d",ref_pkt_cnt));
       	ref_pkt.data = vif.in_data;
       	ref_pkt.chan = vif.chan;
-        //Todo: write ref_pkt to the ref_port
+        //Todone: write ref_pkt to the ref_port
     
         ref_port.write(ref_pkt);
       	`uvm_info(my_name,$sformatf("Monitor: Detected incoming transaction: chan=%0d data=0x%0h",ref_pkt.chan,ref_pkt.data),UVM_MEDIUM)

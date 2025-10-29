@@ -93,7 +93,7 @@ class mux_out_monitor #(type PKT = uvm_sequence_item) extends uvm_monitor;
       	@(posedge vif.clk);
        	act_pkt.data[07:00] = get_data(vif.chan,vif.out_data3,vif.out_data2,vif.out_data1,vif.out_data0);
 				act_pkt.print(uvm_default_table_printer);
-        //Todo: write the act_pkt to the act_port
+        //Todone: write the act_pkt to the act_port
         act_port.write(act_pkt);
       	`uvm_info(my_name,$sformatf("Monitor: Detected outgoing transaction: chan=%0d data=0x%0h",act_pkt.chan,act_pkt),UVM_MEDIUM)
       end

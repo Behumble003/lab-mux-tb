@@ -57,7 +57,7 @@ class mux_in_agent #(type REQ = uvm_sequence_item, type RSP = uvm_sequence_item)
       // Connect the sequencer to the driver
       //
       driver.seq_item_port.connect(sequencer.seq_item_export);
-      //Todo: perform the connection between the driver and the sequencer
+      //Todone: perform the connection between the driver and the sequencer
    endfunction
    
 endclass

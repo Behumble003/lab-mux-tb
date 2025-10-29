@@ -52,7 +52,7 @@ class mux_in_sb #(type REQ = uvm_sequence_item) extends uvm_scoreboard;
       in_order_ref_port.connect(comparer.before_export);
       in_order_act_port.connect(comparer.after_export);
 
-      //Todo: connect the in_order_act_port to the comparer's after_export
+      //Todone: connect the in_order_act_port to the comparer's after_export
       assert(uvm_resource_db #(mux_cfg)::read_by_name(get_full_name(),"TB_CONFIG",sb_cfg));
    endfunction
   
@@ -98,7 +98,7 @@ class mux_in_sb #(type REQ = uvm_sequence_item) extends uvm_scoreboard;
          in_order_ref_port.write(rref);
          in_order_act_port.write(aact); // write to the comparer after_export
 
-         //Todo: Write aact packet to the in_order_act_port
+         //Todone: Write aact packet to the in_order_act_port
        end
     endtask
    
