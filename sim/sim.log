@@ -1,6 +1,6 @@
 xrun -uvm -top worklib.top +UVM_TESTNAME=mux_demo_test
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 12:58:56 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 12:58:57 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:21:20 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:21:21 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 	Elaborating the design hierarchy:
@@ -75,31 +75,78 @@ CDNS-UVM-1.1d (24.03-s013)
 
 UVM_INFO @ 0: reporter [RNTST] Running test mux_demo_test...
 UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_monitor.sv(42) @ 0: uvm_test_top.mux_env.mux_in_agent_0.mux_in_monitor [mux_in_monitor] Error injection is false
-xmsim: *W,TRILLVNULL: Illegal access of virtual methods from NULL class handle.
-            File: ../tb/agt/mux_in/mux_in_agent.sv, line = 55, pos = 28
-           Scope: worklib.mux_in_agent_pkg::mux_in_agent#(mux_in_tlm_pkg::mux_in_tlm,mux_in_tlm_pkg::mux_in_tlm)@2787_1.connect
-            Time: 0 FS + 13
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_monitor.sv(43) @ 0: uvm_test_top.mux_env.mux_out_agent_0.mux_out_monitor [mux_out_monitor] Error injection is false
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(47) @ 0: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq: ] num_write =           4, drain_time=       1000
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(64) @ 501: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Sending packet 0 chan=3 data=52935f41
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(67) @ 501: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Received reponse packet
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_monitor.sv(78) @ 701: uvm_test_top.mux_env.mux_in_agent_0.mux_in_monitor [mux_in_monitor] Monitor: Detected incoming transaction: chan=2 data=0x2de39c39
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov.sv(70) @ 701: uvm_test_top.mux_env.Coverage [Coverage] chan=2
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(64) @ 701: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Sending packet 1 chan=2 data=2de39c39
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(67) @ 701: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Received reponse packet
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_monitor.sv(78) @ 1001: uvm_test_top.mux_env.mux_in_agent_0.mux_in_monitor [mux_in_monitor] Monitor: Detected incoming transaction: chan=2 data=0x1067a5ae
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov.sv(70) @ 1001: uvm_test_top.mux_env.Coverage [Coverage] chan=2
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(64) @ 1001: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Sending packet 2 chan=2 data=1067a5ae
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(67) @ 1001: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Received reponse packet
+----------------------------------------------------
+Name                    Type        Size  Value     
+----------------------------------------------------
+act_pkt_id_          1  mux_in_tlm  -     @5294     
+  data                  integral    32    'h2de39c39
+  chan                  integral    2     'h2       
+----------------------------------------------------
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_monitor.sv(97) @ 1201: uvm_test_top.mux_env.mux_out_agent_0.mux_out_monitor [mux_out_monitor] Monitor: Detected outgoing transaction: chan=2 data=0x14ae
+UVM_INFO @ 1201: uvm_test_top.mux_env.Scoreboard.comparer [Comparator Match] chan=2 data=2de39c39
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_monitor.sv(78) @ 1301: uvm_test_top.mux_env.mux_in_agent_0.mux_in_monitor [mux_in_monitor] Monitor: Detected incoming transaction: chan=0 data=0x1f1a34bd
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov.sv(70) @ 1301: uvm_test_top.mux_env.Coverage [Coverage] chan=0
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(64) @ 1301: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Sending packet 3 chan=0 data=1f1a34bd
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_demo_seq.sv(67) @ 1301: uvm_test_top.mux_env.mux_in_agent_0.mux_in_sequencer@@mux_in_demo_seq_name [mux_in_demo_seq_name] Received reponse packet
+----------------------------------------------------
+Name                    Type        Size  Value     
+----------------------------------------------------
+act_pkt_id_          2  mux_in_tlm  -     @5322     
+  data                  integral    32    'h1067a5ae
+  chan                  integral    2     'h2       
+----------------------------------------------------
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_monitor.sv(97) @ 1601: uvm_test_top.mux_env.mux_out_agent_0.mux_out_monitor [mux_out_monitor] Monitor: Detected outgoing transaction: chan=2 data=0x14ca
+UVM_INFO @ 1601: uvm_test_top.mux_env.Scoreboard.comparer [Comparator Match] chan=2 data=1067a5ae
+----------------------------------------------------
+Name                    Type        Size  Value     
+----------------------------------------------------
+act_pkt_id_          3  mux_in_tlm  -     @5334     
+  data                  integral    32    'h1f1a34bd
+  chan                  integral    2     'h0       
+----------------------------------------------------
+UVM_INFO /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_monitor.sv(97) @ 2001: uvm_test_top.mux_env.mux_out_agent_0.mux_out_monitor [mux_out_monitor] Monitor: Detected outgoing transaction: chan=0 data=0x14d6
+UVM_INFO @ 2001: uvm_test_top.mux_env.Scoreboard.comparer [Comparator Match] chan=0 data=1f1a34bd
+UVM_INFO /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 2301: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
 
-xmsim: *E,TRNULLID: NULL pointer dereference.
-          File: /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh, line = 463, pos = 38
-         Scope: worklib.uvm_pkg::uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(T,T))::connect
-          Time: 0 FS + 13
-Verilog Stack Trace:
-0: function worklib.uvm_pkg::uvm_port_base#(uvm_pkg::uvm_tlm_if_base#(T,T))::connect at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh:463
-1: function worklib.mux_in_agent_pkg::mux_in_agent#(mux_in_tlm_pkg::mux_in_tlm,mux_in_tlm_pkg::mux_in_tlm)@2787_1.connect at ../tb/agt/mux_in/mux_in_agent.sv:55
-2: function worklib.uvm_pkg::uvm_component@2787_1.connect_phase at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_component.svh:2277
-3: function worklib.uvm_pkg::uvm_connect_phase@1106_2.exec_func at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_common_phases.svh:96
-4: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.execute at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:108
-5: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:81
-6: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
-7: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
-8: function worklib.uvm_pkg::uvm_bottomup_phase@1106_2.traverse at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_bottomup_phase.svh:61
-9: task worklib.uvm_pkg::uvm_phase@1149_2.execute_phase at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_phase.svh:1168
-10: process in worklib.uvm_pkg::uvm_phase::m_iterate_through_phases at /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_phase.svh:1997
-
-NOTE: You may recompile using -linedebug, in case of any discrepency in line/file information in above call stack
+--- UVM Report catcher Summary ---
 
 
-/home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_port_base.svh:463     if ((provider.m_if_mask & m_if_mask) != m_if_mask) begin
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   25
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[Comparator Match]     3
+[Coverage]     3
+[RNTST]     1
+[TEST_DONE]     1
+[mux_in_demo_seq: ]     1
+[mux_in_demo_seq_name]     8
+[mux_in_monitor]     4
+[mux_out_monitor]     4
+Simulation complete via $finish(1) at time 2301 NS + 45
+/home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 12:59:00 +07  (total: 00:00:03)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:21:25 +07  (total: 00:00:04)

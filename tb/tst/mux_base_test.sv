@@ -13,10 +13,10 @@ class mux_base_test extends uvm_test;
    string         my_name = "mux_base_test";
   
    typedef mux_env #(mux_in_tlm,mux_in_tlm) env_t;
-   env_t   env_h;
+   env_t   env_h; 
    mux_cfg     default_cfg;
    mux_cfg     tb_cfg;
-   
+
    //
    // NEW
    //

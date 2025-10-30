@@ -1,6 +1,6 @@
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/env/uvm_tb_udf_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:31:58 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:31:59 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:24 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:25 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -19,10 +19,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		           Instances  Unique
 		Verilog packages:  1       1
 	Writing initial simulation snapshot: worklib.uvm_tb_udf_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:01 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:26 +07  (total: 00:00:01)
 xrun -c -uvm  -sv /home/s22520123/labs/lab_mux_tb/dut/mux.sv
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:01 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:01 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:26 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:27 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 		Caching library 'worklib' ....... Done
@@ -47,10 +47,10 @@ Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home
 		Compilation units:   1       1
 		Process Clocks:      4       2
 	Writing initial simulation snapshot: worklib.dut:sv
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:04 +07  (total: 00:00:03)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:29 +07  (total: 00:00:02)
 xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/clk_rst_if.sv
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:04 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:04 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:29 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:30 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 file: /home/s22520123/labs/lab_mux_tb/inf/clk_rst_if.sv
@@ -74,10 +74,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		Initial blocks:     1       1
 		Compilation units:  1       1
 	Writing initial simulation snapshot: worklib.clk_rst_if:sv
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:06 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:31 +07  (total: 00:00:01)
 xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/mux_in_if.sv
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:06 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:07 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:31 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:32 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 file: /home/s22520123/labs/lab_mux_tb/inf/mux_in_if.sv
 xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
@@ -95,10 +95,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		Interfaces:  1       1
 		Registers:   3       3
 	Writing initial simulation snapshot: worklib.mux_in_if:sv
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:08 +07  (total: 00:00:01)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:33 +07  (total: 00:00:01)
 xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/inf/mux_out_if.sv
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:08 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:09 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:33 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:34 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 file: /home/s22520123/labs/lab_mux_tb/inf/mux_out_if.sv
 xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env given but not used.
@@ -115,10 +115,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		     Instances  Unique
 		Interfaces:  1       1
 	Writing initial simulation snapshot: worklib.mux_out_if:sv
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:09 +07  (total: 00:00:00)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:35 +07  (total: 00:00:01)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/tlm/mux_in_tlm_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:09 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:10 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:35 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:35 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -162,10 +162,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        190     304
 		SV Class specializations:     339     339
 	Writing initial simulation snapshot: worklib.mux_in_tlm_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:14 +07  (total: 00:00:04)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:39 +07  (total: 00:00:04)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/cfg /home/s22520123/labs/lab_mux_tb/tb/cfg/mux_cfg_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:14 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:15 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:39 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:40 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -201,10 +201,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        191     305
 		SV Class specializations:     341     341
 	Writing initial simulation snapshot: worklib.mux_cfg_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:16 +07  (total: 00:00:01)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:43 +07  (total: 00:00:03)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_in +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/mux_in_agent_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:16 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:17 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:43 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:43 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -241,10 +241,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        191     309
 		SV Class specializations:     341     341
 	Writing initial simulation snapshot: worklib.mux_in_agent_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:19 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:46 +07  (total: 00:00:03)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_out +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_out/mux_out_agent_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:19 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:20 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:46 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:46 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -281,10 +281,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        191     307
 		SV Class specializations:     341     341
 	Writing initial simulation snapshot: worklib.mux_out_agent_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:22 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:48 +07  (total: 00:00:02)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/agt/mux_in/seq/mux_in_seq_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:22 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:22 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:48 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:49 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -322,10 +322,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        192     307
 		SV Class specializations:     343     343
 	Writing initial simulation snapshot: worklib.mux_in_seq_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:24 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:51 +07  (total: 00:00:02)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/chk /home/s22520123/labs/lab_mux_tb/tb/chk/uvm_tb_ap_queue_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:24 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:25 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:51 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:51 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -370,10 +370,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        189     304
 		SV Class specializations:     337     337
 	Writing initial simulation snapshot: worklib.uvm_tb_ap_queue_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:29 +07  (total: 00:00:04)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:56 +07  (total: 00:00:05)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/tlm +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/chk /home/s22520123/labs/lab_mux_tb/tb/chk/mux_chk_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:29 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:29 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:56 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:57 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
 file: /home/s22520123/labs/lab_mux_tb/tb/chk/mux_chk_pkg.svh
@@ -414,10 +414,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        192     308
 		SV Class specializations:     343     343
 	Writing initial simulation snapshot: worklib.mux_chk_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:31 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:19:58 +07  (total: 00:00:01)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/cov /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:31 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:32 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:19:58 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:19:59 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -455,10 +455,10 @@ file: /home/s22520123/labs/lab_mux_tb/tb/cov/mux_in_cov_pkg.svh
 		SV Class declarations:        190     306
 		SV Class specializations:     339     339
 	Writing initial simulation snapshot: worklib.mux_in_cov_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:34 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:20:01 +07  (total: 00:00:02)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env /home/s22520123/labs/lab_mux_tb/tb/env/mux_env_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:34 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:35 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:20:02 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:20:02 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -501,10 +501,10 @@ file: /home/s22520123/labs/lab_mux_tb/tb/env/mux_env_pkg.svh
 		SV Class declarations:        192     316
 		SV Class specializations:     343     343
 	Writing initial simulation snapshot: worklib.mux_env_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:37 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:20:05 +07  (total: 00:00:03)
 xrun -c -uvm  +incdir+/src +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/tst /home/s22520123/labs/lab_mux_tb/tb/tst/mux_test_pkg.svh
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:37 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:37 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:20:05 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:20:05 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 xmvlog: *W,NOTIND: unable to access -INCDIR /src (No such file or directory).
@@ -535,11 +535,9 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		Caching library 'worklib' ....... Done
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.mux_test_pkg:svh <0x0f00b0ba>
-			streams: 935, words: 1039289
+		worklib.mux_test_pkg:svh <0x3cff70dc>
+			streams: 936, words: 1050630
 		worklib.mux_env_pkg:svh <0x25600d39>
-			streams:   0, words:     0
-		worklib.mux_in_agent_pkg:svh <0x7de5c194>
 			streams:   0, words:     0
 		worklib.mux_out_agent_pkg:svh <0x3c5d9cb8>
 			streams:   0, words:     0
@@ -551,10 +549,12 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 			streams:   0, words:     0
 		worklib.mux_in_seq_pkg:svh <0x391efcd0>
 			streams:   0, words:     0
-		worklib.mux_cfg_pkg:svh <0x7b1ca394>
-			streams:  46, words: 42413
 		worklib.mux_in_tlm_pkg:svh <0x13c0aeb8>
 			streams:  26, words: 25101
+		worklib.mux_in_agent_pkg:svh <0x7de5c194>
+			streams:   0, words:     0
+		worklib.mux_cfg_pkg:svh <0x7b1ca394>
+			streams:  46, words: 42413
 		worklib.cdns_uvm_pkg:sv <0x4f04cb9e>
 			streams: 174, words: 249209
 		worklib.cdns_uvmapi:svp <0x62250d46>
@@ -563,8 +563,6 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 			streams:   3, words:  1654
 		worklib.uvm_pkg:sv <0x29ac60c4>
 			streams: 4537, words: 6801807
-		worklib.clk_rst_if:sv <0x7814098c>
-			streams:   2, words:  1681
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -583,10 +581,10 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/tb/env give
 		SV Class declarations:        212     319
 		SV Class specializations:     422     422
 	Writing initial simulation snapshot: worklib.mux_test_pkg:svh
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:42 +07  (total: 00:00:05)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:20:10 +07  (total: 00:00:05)
 xrun -c -uvm  +incdir+/home/s22520123/labs/lab_mux_tb/tb/env +incdir+/home/s22520123/labs/lab_mux_tb/tb/tst +incdir+/home/s22520123/labs/lab_mux_tb/dut +incdir+/home/s22520123/labs/lab_mux_tb/inf /home/s22520123/labs/lab_mux_tb/tb/env/mux_top.sv
-TOOL:	xrun	24.03-s013: Started on Oct 28, 2025 at 11:32:42 +07
-TOOL:	xrun(64)	24.03-s013: Started on Oct 28, 2025 at 11:32:43 +07
+TOOL:	xrun	24.03-s013: Started on Oct 29, 2025 at 12:20:10 +07
+TOOL:	xrun(64)	24.03-s013: Started on Oct 29, 2025 at 12:20:11 +07
 xrun(64): 24.03-s013: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /home/eda/cadence/XCELIUM2403/tools/methodology/UVM/CDNS-1.1d
 file: /home/s22520123/labs/lab_mux_tb/tb/env/mux_top.sv
@@ -623,12 +621,8 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/inf given b
 		top
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.dut:sv <0x38b38186>
-			streams:  31, words: 21946
-		worklib.top:sv <0x2873bd68>
-			streams: 939, words: 1041764
-		worklib.clk_rst_if:sv <0x7238995e>
-			streams:   2, words:  2151
+		worklib.top:sv <0x4d212dfb>
+			streams: 940, words: 1053105
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -652,4 +646,4 @@ xmvlog: *W,SPDUSD: Include directory /home/s22520123/labs/lab_mux_tb/inf given b
 		SV Class specializations:     422     422
 		Process Clocks:                 4       2
 	Writing initial simulation snapshot: worklib.top:sv
-TOOL:	xrun(64)	24.03-s013: Exiting on Oct 28, 2025 at 11:32:45 +07  (total: 00:00:02)
+TOOL:	xrun(64)	24.03-s013: Exiting on Oct 29, 2025 at 12:20:13 +07  (total: 00:00:02)
